@@ -19,3 +19,5 @@ Repositorio correspondiente al material generado para la elaboración del Trabaj
     - Contaminación acústica. Datos históricos diarios (CSV): https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=c035669177294610VgnVCM2000001f4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
     - Contaminación acústica. Datos históricos mensuales (CSV): https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=2ec892874870b410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
     - Contaminación acústica: Estaciones de medida (CSV): https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=b05a79ea1770b410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
+    
+- Estudio de los CSV y transformación de algunas columnas para mejorar la legibilidad de estos
