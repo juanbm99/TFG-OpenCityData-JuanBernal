@@ -1,0 +1,49 @@
+[
+  {
+    "op": "core/column-move",
+    "columnName": "dia",
+    "index": 2,
+    "description": "Move column dia to position 2"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "dia",
+    "index": 1,
+    "description": "Move column dia to position 1"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "mes",
+    "index": 2,
+    "description": "Move column mes to position 2"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "dia",
+    "expression": "join ([coalesce(cells['dia'].value,''),coalesce(cells['mes'].value,''),coalesce(cells['anio'].value,'')],'-')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column dia using expression join ([coalesce(cells['dia'].value,''),coalesce(cells['mes'].value,''),coalesce(cells['anio'].value,'')],'-')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "mes",
+    "description": "Remove column mes"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "anio",
+    "description": "Remove column anio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "dia",
+    "newColumnName": "Fecha",
+    "description": "Rename column dia to Fecha"
+  }
+]
