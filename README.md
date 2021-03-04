@@ -21,7 +21,6 @@ Repositorio correspondiente al material generado para la elaboración del Trabaj
     - Contaminación acústica: Estaciones de medida (CSV): https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=b05a79ea1770b410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
     
 - Estudio de los CSV y transformación de algunas columnas para mejorar la legibilidad de estos (OpenRefine):
-   - Renombrado y Eliminación de Columnas innecesarias (p.e Latitud y Longitud en varios formatos)
-   - Susititución de COD_VIA por COD_POSTAL
+   - Adición del códgio postal de las estaciones de medida (COD_POSTAL)
    - Problema con fechas de alta de Estaciones (Formato Desconocido ?)
 - Estudio de la ontología de Contaminación Acústica (https://github.com/juanbm99/medio-ambiente-contaminacion-acustica/tree/master/Ontology) y enlazado de conceptos para    preparación de RML
