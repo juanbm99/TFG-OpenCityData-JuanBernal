@@ -23,4 +23,6 @@ Repositorio correspondiente al material generado para la elaboración del Trabaj
 - Estudio de los CSV y transformación de algunas columnas para mejorar la legibilidad de estos (OpenRefine):
    - Adición del código postal de las estaciones de medida (COD_POSTAL)
    - Problema con fechas de alta de Estaciones (Formato Desconocido ?)
+   - Adición de la Localidad=Madrid y Region=Comunidad de Madrid a todas las entradas del CSV de Estaciones de Medida
+   - Adición columnas "URI_Estación" y "URI_Direccion" al CSV de Estaciones de Medida
 - Estudio de la ontología de Contaminación Acústica (https://github.com/juanbm99/medio-ambiente-contaminacion-acustica/tree/master/Ontology) y enlazado de conceptos para    preparación de RML
