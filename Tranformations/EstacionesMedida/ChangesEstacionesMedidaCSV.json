@@ -1,0 +1,145 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "VIA_CLASE",
+    "expression": "grel:value.toTitlecase()",
+    "onError": "set-to-blank",
+    "newColumnName": "Ubicación",
+    "columnInsertIndex": 4,
+    "description": "Create column Ubicación at index 4 based on column VIA_CLASE using expression grel:value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "VIA_PAR",
+    "expression": "grel:value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column VIA_PAR using expression grel:value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "VIA_NOMBRE",
+    "expression": "grel:value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column VIA_NOMBRE using expression grel:value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicación",
+    "expression": "join ([coalesce(cells['Ubicación'].value,''),coalesce(cells['VIA_PAR'].value,''),coalesce(cells['VIA_NOMBRE'].value,'')],'-')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ubicación using expression join ([coalesce(cells['Ubicación'].value,''),coalesce(cells['VIA_PAR'].value,''),coalesce(cells['VIA_NOMBRE'].value,'')],'-')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_CLASE",
+    "description": "Remove column VIA_CLASE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_NOMBRE",
+    "description": "Remove column VIA_NOMBRE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_PAR",
+    "description": "Remove column VIA_PAR"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicación",
+    "expression": "grel:value.replace(\"-\",\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ubicación using expression grel:value.replace(\"-\",\" \")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nombre",
+    "newColumnName": "Nombre_Estacion",
+    "description": "Rename column Nombre to Nombre_Estacion"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Longitud_gms",
+    "description": "Remove column Longitud_gms"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Latitud_gms",
+    "description": "Remove column Latitud_gms"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LATITUD_ED50",
+    "description": "Remove column LATITUD_ED50"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LONGITUD_ED50",
+    "description": "Remove column LONGITUD_ED50"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Alt.(m)",
+    "description": "Remove column Alt.(m)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Coordenada_X_ETRS89",
+    "description": "Remove column Coordenada_X_ETRS89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Coordenada_Y_ETRS89",
+    "description": "Remove column Coordenada_Y_ETRS89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LONGITUD_WGS84",
+    "description": "Remove column LONGITUD_WGS84"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LATITUD_WGS84",
+    "description": "Remove column LATITUD_WGS84"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COD_VIA",
+    "newColumnName": "Cod_Postal",
+    "description": "Rename column COD_VIA to Cod_Postal"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nº",
+    "newColumnName": "ID",
+    "description": "Rename column Nº to ID"
+  }
+]
