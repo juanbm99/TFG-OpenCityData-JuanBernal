@@ -34,9 +34,6 @@
      rr:predicateMap[rr:constant sosa:madeBySensor; rr:termType rr:IRI ];
      rr:objectMap [
       rr:parentTriplesMap <#TriplesMap2>;
-      rr:joinCondition [
-          rr:child "Nombre_Estación"; rr:parent "Nombre_Estación";
-      ];
     ];
   ].
   
@@ -47,7 +44,7 @@
   ];
   
   rr:subjectMap [ 
-	rml:reference "URI_Estacion";
+	rr:template "{URI_Estacion}";
 	rr:termType rr:IRI;
     rr:class :EstacionMedida
 	];
@@ -62,6 +59,6 @@
   rr:predicateObjectMap [
         rr:predicateMap[rr:constant sch:name; rr:termType rr:IRI ];
         rr:objectMap [
-          rml:reference "Nombre_Estación"; rr:datatype xsd:string
+          rml:reference "Nombre_Estacion"; rr:datatype xsd:string
         ]
   ].
