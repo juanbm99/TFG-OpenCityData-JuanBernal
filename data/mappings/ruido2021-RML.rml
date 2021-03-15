@@ -6,6 +6,8 @@
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
 @prefix pur: <http://purl.org/dc/terms/>.
 @prefix fech: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#>.
+@prefix kos: <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/>.
+@prefix kosinter: <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/>.
 @prefix sch: <https://schema.org/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix : <http://vocab.ciudadesabiertas.es/def/medio-ambiente/contaminacion-acustica#>.
@@ -27,6 +29,55 @@
         rr:predicateMap[rr:constant sosa:resultTime; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "Fecha"; rr:datatype xsd:dateTime
+        ]
+  ];
+  
+  rr:predicateObjectMap [
+        rr:predicateMap[rr:constant kosinter:tipo-intervalo-referencia; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "tipo"; rr:datatype xsd:string
+        ]
+  ];
+  
+  rr:predicateObjectMap [
+        rr:predicateMap[rr:constant kos:LAeq; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "LAEQ"; rr:datatype xsd:string
+        ]
+  ];
+  
+  rr:predicateObjectMap [
+        rr:predicateMap[rr:constant kos:LAS01; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "LAS01"; rr:datatype xsd:string
+        ]
+  ];
+  
+  rr:predicateObjectMap [
+        rr:predicateMap[rr:constant kos:LAS10; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "LAS10"; rr:datatype xsd:string
+        ]
+  ];
+  
+  rr:predicateObjectMap [
+        rr:predicateMap[rr:constant kos:LAS50; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "LAS50"; rr:datatype xsd:string
+        ]
+  ];
+  
+  rr:predicateObjectMap [
+        rr:predicateMap[rr:constant kos:LAS90; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "LAS90"; rr:datatype xsd:string
+        ]
+  ];
+  
+   rr:predicateObjectMap [
+        rr:predicateMap[rr:constant kos:LAS99; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "LAS99"; rr:datatype xsd:string
         ]
   ];
    
@@ -62,3 +113,4 @@
           rml:reference "Nombre_Estacion"; rr:datatype xsd:string
         ]
   ].
+
