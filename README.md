@@ -11,7 +11,7 @@ Repositorio correspondiente al material generado para la elaboración del Trabaj
 - Acceso al portal vocab.ciudadesabiertas.es y visualización del Webinar de Convenios
 - Lectura del ejemplo de Deuda Pública
 - Datos de Contaminación Acústica:
-  - Zaragoza: Mapa de Ruido (Formato WMS)
+  - Zaragoza: Mapa de Ruido (Formato WMS y descargable en ficheros ZIP en https://www.zaragoza.es/sede/portal/medioambiente/ruido/mapas/servicio/catalogo/1880)
   - Santiago Compostela: No tiene
   - A Coruña: No tiene
   - Madrid: 
