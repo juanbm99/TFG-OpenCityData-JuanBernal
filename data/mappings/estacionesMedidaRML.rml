@@ -2,11 +2,9 @@
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
-@prefix pur: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
 @prefix fech: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#>.
-@prefix sch: <https://schema.org/>.
-@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
 @prefix : <http://vocab.ciudadesabiertas.es/def/medio-ambiente/contaminacion-acustica#>.
 @base <http://example.com/ns#>.
 
@@ -23,7 +21,7 @@
   ];
   
   rr:predicateObjectMap [
-        rr:predicateMap[rr:constant pur:identifier; rr:termType rr:IRI ];
+        rr:predicateMap[rr:constant dct:identifier; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "Id"; rr:datatype xsd:string
         ]
@@ -37,20 +35,17 @@
   ];
   
    rr:predicateObjectMap [
-        rr:predicateMap[rr:constant sch:name; rr:termType rr:IRI ];
+        rr:predicateMap[rr:constant schema:name; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "Nombre"; rr:datatype xsd:string
         ]
   ];
    
   rr:predicateObjectMap [
-     rr:predicateMap[rr:constant sch:address; rr:termType rr:IRI ];
+     rr:predicateMap[rr:constant schema:address; rr:termType rr:IRI ];
      rr:objectMap [
-      rr:parentTriplesMap <#TriplesMap2>;
-      rr:joinCondition [
-          rr:child "DIRECCION"; rr:parent "DIRECCION";
-      ];
-    ];
+          rml:reference "URI_DireccionEstacion"; 
+        ]
   ].
   
 <#TriplesMap2>
@@ -66,14 +61,14 @@
 	];
   
  rr:predicateObjectMap [
-        rr:predicateMap[rr:constant sch:postalCode; rr:termType rr:IRI ];
+        rr:predicateMap[rr:constant schema:postalCode; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "COD_POSTAL"; rr:datatype xsd:string
         ]
   ];
   
   rr:predicateObjectMap [
-        rr:predicateMap[rr:constant sch:streetAddress; rr:termType rr:IRI ];
+        rr:predicateMap[rr:constant schema:streetAddress; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "DIRECCION"; rr:datatype xsd:string
         ]
@@ -81,14 +76,14 @@
   
  
   rr:predicateObjectMap [
-        rr:predicateMap[rr:constant sch:addressLocality; rr:termType rr:IRI ];
+        rr:predicateMap[rr:constant schema:addressLocality; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "Localidad"; rr:datatype xsd:string
         ]
   ];
   
   rr:predicateObjectMap [
-        rr:predicateMap[rr:constant sch:addressRegion; rr:termType rr:IRI ];
+        rr:predicateMap[rr:constant schema:addressRegion; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "Region"; rr:datatype xsd:string
         ]
