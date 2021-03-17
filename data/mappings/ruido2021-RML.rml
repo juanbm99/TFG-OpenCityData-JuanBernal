@@ -36,13 +36,6 @@
   ];
   
   rr:predicateObjectMap [
-        rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
-        rr:objectMap [
-           rml:reference "URI_TipoIntervaloReferencia"; 
-        ]
-  ];
-  
-  rr:predicateObjectMap [
         rr:predicateMap[rr:constant :hasSimpleResult; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "LAEQ"; rr:datatype xsd:float 
@@ -54,6 +47,13 @@
         rr:objectMap [
           rml:reference "Fecha"; rr:datatype xsd:date
         ]
+  ];
+  
+  rr:predicateObjectMap [
+     rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
+     rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap8>;
+    ];
   ];
   
   rr:predicateObjectMap [
@@ -90,13 +90,6 @@
   ];
   
   rr:predicateObjectMap [
-        rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
-        rr:objectMap [
-           rml:reference "URI_TipoIntervaloReferencia"; 
-        ]
-  ];
-  
-  rr:predicateObjectMap [
         rr:predicateMap[rr:constant :hasSimpleResult; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "LAS01"; rr:datatype xsd:float 
@@ -108,6 +101,13 @@
         rr:objectMap [
           rml:reference "Fecha"; rr:datatype xsd:date
         ]
+  ];
+  
+  rr:predicateObjectMap [
+     rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
+     rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap8>;
+    ];
   ];
   
   rr:predicateObjectMap [
@@ -144,13 +144,6 @@
   ];
   
   rr:predicateObjectMap [
-        rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
-        rr:objectMap [
-           rml:reference "URI_TipoIntervaloReferencia"; 
-        ]
-  ];
-  
-  rr:predicateObjectMap [
         rr:predicateMap[rr:constant :hasSimpleResult; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "LAS10"; rr:datatype xsd:float 
@@ -162,6 +155,13 @@
         rr:objectMap [
           rml:reference "Fecha"; rr:datatype xsd:date
         ]
+  ];
+  
+  rr:predicateObjectMap [
+     rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
+     rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap8>;
+    ];
   ];
   
   rr:predicateObjectMap [
@@ -198,13 +198,6 @@
   ];
   
   rr:predicateObjectMap [
-        rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
-        rr:objectMap [
-           rml:reference "URI_TipoIntervaloReferencia"; 
-        ]
-  ];
-  
-  rr:predicateObjectMap [
         rr:predicateMap[rr:constant :hasSimpleResult; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "LAS50"; rr:datatype xsd:float 
@@ -216,6 +209,13 @@
         rr:objectMap [
           rml:reference "Fecha"; rr:datatype xsd:date
         ]
+  ];
+  
+  rr:predicateObjectMap [
+     rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
+     rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap8>;
+    ];
   ];
   
   rr:predicateObjectMap [
@@ -252,13 +252,6 @@
   ];
   
   rr:predicateObjectMap [
-        rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
-        rr:objectMap [
-           rml:reference "URI_TipoIntervaloReferencia"; 
-        ]
-  ];
-  
-  rr:predicateObjectMap [
         rr:predicateMap[rr:constant :hasSimpleResult; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "LAS90"; rr:datatype xsd:float 
@@ -270,6 +263,13 @@
         rr:objectMap [
           rml:reference "Fecha"; rr:datatype xsd:date
         ]
+  ];
+  
+  rr:predicateObjectMap [
+     rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
+     rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap8>;
+    ];
   ];
   
   rr:predicateObjectMap [
@@ -304,14 +304,7 @@
           rr:constant kos:LAS99; 
         ]
   ];
-  
-  rr:predicateObjectMap [
-        rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
-        rr:objectMap [
-           rml:reference "URI_TipoIntervaloReferencia"; 
-        ]
-  ];
-  
+   
   rr:predicateObjectMap [
         rr:predicateMap[rr:constant :hasSimpleResult; rr:termType rr:IRI ];
         rr:objectMap [
@@ -324,6 +317,13 @@
         rr:objectMap [
           rml:reference "Fecha"; rr:datatype xsd:date
         ]
+  ];
+  
+  rr:predicateObjectMap [
+     rr:predicateMap[rr:constant :tipoIntervaloReferencia; rr:termType rr:IRI ];
+     rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap8>;
+    ];
   ];
   
   rr:predicateObjectMap [
@@ -343,6 +343,16 @@
 	rr:template "{URI_Estacion}";
 	rr:termType rr:IRI;
  ].
+ 
+<#TriplesMap8>
+ rml:logicalSource [
+    rml:source "RuidoDiario2021_v2.csv";
+    rml:referenceFormulation ql:CSV 
+  ];
   
+  rr:subjectMap [ 
+	rr:template "{URI_TipoIntervaloReferencia}";
+	rr:termType rr:IRI;
+ ].
  
 
