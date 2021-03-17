@@ -10,7 +10,7 @@
 
 <#TriplesMap1>
   rml:logicalSource [
-    rml:source "EstacionesMedidaChanged.csv";
+    rml:source "EstacionesMedidaControlAcusticoChanged_v6.csv";
     rml:referenceFormulation ql:CSV 
   ];
   
@@ -41,16 +41,20 @@
         ]
   ];
    
-  rr:predicateObjectMap [
+    rr:predicateObjectMap [
      rr:predicateMap[rr:constant schema:address; rr:termType rr:IRI ];
      rr:objectMap [
-          rml:reference "URI_DireccionEstacion"; 
-        ]
+      rr:parentTriplesMap <#TriplesMap3>;
+      rr:joinCondition [
+          rr:child "URI_DireccionEstacion"; rr:parent "URI_DireccionEstacion";
+      ];
+    ];
   ].
+  
   
 <#TriplesMap2>
  rml:logicalSource [
-    rml:source "EstacionesMedidaChanged.csv";
+    rml:source "EstacionesMedidaControlAcusticoChanged_v6.csv";
     rml:referenceFormulation ql:CSV 
   ];
   
@@ -88,4 +92,14 @@
           rml:reference "Region"; rr:datatype xsd:string
         ]
   ].
+ 
+<#TriplesMap3>
+ rml:logicalSource [
+    rml:source "EstacionesMedidaControlAcusticoChanged_v6.csv";
+    rml:referenceFormulation ql:CSV 
+  ];
   
+  rr:subjectMap [ 
+	rml:reference "URI_DireccionEstacion";
+	rr:termType rr:IRI;
+	].
