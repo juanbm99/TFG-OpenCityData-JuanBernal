@@ -20,3 +20,7 @@ A continuación se expone una pequeña leyenda aclarativa para los valores de la
 
 ### ¿Dónde puedo encontrar información más detallada acerca de las estaciones de medida que realizan las observaciones?
 Todos los datos generados relativos a las estaciones de medida situadas en la ciudad de Madrid se encuentran en /data/rdf/EstacionesMedida/estacionMedida.nt
+
+# Mapa Descriptivo Ruido Diario RDF
+![Vocabulario Observacion](https://user-images.githubusercontent.com/43373725/111815771-57abed80-88dc-11eb-984b-33489159dd48.png)
+
