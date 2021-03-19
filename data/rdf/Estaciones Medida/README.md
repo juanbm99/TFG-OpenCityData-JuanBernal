@@ -12,3 +12,6 @@ Las coordenadas geográficas se incluirán en los datos generados con RDF una ve
 
 ### ¿Dónde puedo encontrar información más detallada acerca de las observaciones que realizan las estaciones de medida?
 Todos los datos generados relativos a las observaciones realizadas por las estaciones de medida situadas en la ciudad de Madrid se encuentran en /data/rdf/RuidoDiario/
+
+# Mapa Descriptivo Estaciones Medida RDF
+![Vocabulario Estaciones Medida](https://user-images.githubusercontent.com/43373725/111786367-01c84d00-88be-11eb-8610-f79bd441217c.png)
