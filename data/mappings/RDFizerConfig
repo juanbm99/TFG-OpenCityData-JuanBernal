@@ -1,15 +1,15 @@
 [default]
-main_directory: main_directory: E:\DESCARGAS\Mappings
+main_directory: main_directory: *Path directory where RDFizerConfig is placed*
 
 [datasets]
 number_of_datasets: 1
-output_folder: 	E:\DESCARGAS\Mappings
+output_folder: 	*Path directory where the rdf will be generated*
 all_in_one_file: no
 remove_duplicate: yes
 enrichment: yes
-name: ruido2020
+name: *Alias of the dataset*
 
 [dataset1]
-name: RuidoDiario2020_v2.csv
-mapping: E:\DESCARGAS\Mappings\ruido2020-RML.rml
+name: *Name of the data file*
+mapping: *Path to the mapping file
 
