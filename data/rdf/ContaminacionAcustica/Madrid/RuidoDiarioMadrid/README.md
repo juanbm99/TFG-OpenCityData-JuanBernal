@@ -1,7 +1,7 @@
-# Mapa Descriptivo Ruido Diario RDF
+# Mapa Descriptivo Ruido Diario Madrid RDF
 ![Vocabulario Observacion](https://user-images.githubusercontent.com/43373725/111815771-57abed80-88dc-11eb-984b-33489159dd48.png)
 
-# FAQ Ruido Diario RDF
+# FAQ Ruido Diario Madrid RDF
 
 ### ¿Qué contiene cada observación?
 Cada observación contiene información acerca de la estación de medida que la tomó (sosa:madeBySensor), la fecha en la que fue tomada (sosa:resultTime), el intervalo de referencia en el que fue tomada (tipoIntervaloReferencia) así como el tipo de medición que es (tipoMedicion) y el valor numérico de la misma (hasSimpleResult).
