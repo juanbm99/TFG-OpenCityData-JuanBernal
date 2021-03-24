@@ -15,14 +15,13 @@ Repositorio correspondiente al material generado para la elaboración del Trabaj
   - Santiago Compostela: No tiene
   - A Coruña: No tiene
   - Madrid: 
-    - Contaminación acústica. Datos diarios (CSV): https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?  vgnextoid=b8c427a272e4e410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
     - Contaminación acústica. Datos históricos diarios (CSV): https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=c035669177294610VgnVCM2000001f4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
-    - Contaminación acústica. Datos históricos mensuales (CSV): https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=2ec892874870b410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
     - Contaminación acústica: Estaciones de medida (CSV): https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=b05a79ea1770b410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
-    
-- Estudio de los CSV y transformación de algunas columnas para mejorar la legibilidad de estos (OpenRefine):
-   - Adición del código postal de las estaciones de medida (COD_POSTAL)
-   - Problema con fechas de alta de Estaciones (Formato Desconocido ?)
-   - Adición de la Localidad=Madrid y Region=Comunidad de Madrid a todas las entradas del CSV de Estaciones de Medida
-   - Adición columnas "URI_Estación" y "URI_Direccion" al CSV de Estaciones de Medida
-- Estudio de la ontología de Contaminación Acústica (https://github.com/juanbm99/medio-ambiente-contaminacion-acustica/tree/master/Ontology) y enlazado de conceptos para    preparación de RML
+  
+- Estudio de la ontología de Contaminación Acústica (https://github.com/juanbm99/medio-ambiente-contaminacion-acustica/tree/master/Ontology) y enlazado de conceptos para    preparación de RML  
+- Estudio del CSV referido a las Estaciones de Medida y el Ruido Diario 2020/21 de Madrid con transformación (OpenRefine) de algunas columnas para mejorar la legibilidad de estos y facilitar el mapeado (RMLmapper y SDM-RDFizer)
+- Creación de los mappings RML para las Estaciones de Medida y Ruido Diario
+- Generación de RDF y correción de errores 
+- Estudio del CSV referido a la Contaminacion Acustica de Zaragoza con transformación (OpenRefine) de algunas columnas para mejorar la legibilidad de estos y facilitar el mapeado (RMLmapper y SDM-RDFizer)
+- Creación de los mappings RML para las Estaciones de Medida Zaragoza
+- Generación de RDF de Estaciones de Medida y correción de errores 
