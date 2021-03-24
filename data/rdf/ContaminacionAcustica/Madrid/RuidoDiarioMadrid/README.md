@@ -22,5 +22,5 @@ A continuación se expone una pequeña leyenda aclarativa para los valores de la
 - LAS_N: percentil enésimo (p.e Nivel de presión acústica con ponderación frecuencial A y ponderación temporal slow por encima del cual se encuentra el n % de los niveles registrados durante el periodo correspondiente).
 
 ### ¿Dónde puedo encontrar información más detallada acerca de las estaciones de medida que realizan las observaciones?
-Todos los datos generados relativos a las estaciones de medida situadas en la ciudad de Madrid se encuentran en /data/rdf/EstacionesMedida/estacionMedida.nt
+Todos los datos generados relativos a las estaciones de medida situadas en la ciudad de Madrid se encuentran en /data/rdf/ContaminacionAcustica/Madrid/EstacionesMedida/estacionMedida.nt
 
