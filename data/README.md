@@ -5,7 +5,7 @@ This directory includes the RML mappings to generate the RDF data by using the d
 
 The data is generated with two different tools (RMLMapper and SFM-RDFizer (https://github.com/SDM-TIB/SDM-RDFizer):
 - RMLMapper: `java -jar rmlmapper.jar -m estacionesMedidaRML.rml -o estacionMedida.nt -d`
-- SFM-RDFizer (previa configuracion del fichero "RDFizerConfig"): `python3 rdfizer/run_rdfizer.py RDFizerConfig`
+- SFM-RDFizer (using the "RDFizerConfig file contained in the directory): `python3 rdfizer/run_rdfizer.py RDFizerConfig`
 
 ## Original Directory
 This directory includes the original datasets in CSV format used to generate the RDF data.
