@@ -1,0 +1,15 @@
+[default]
+main_directory: main_directory: E:\DESCARGAS\Mappings
+
+[datasets]
+number_of_datasets: 1
+output_folder: 	E:\DESCARGAS\Mappings
+all_in_one_file: no
+remove_duplicate: yes
+enrichment: yes
+name: ruido2020
+
+[dataset1]
+name: RuidoDiario2020_v2.csv
+mapping: E:\DESCARGAS\Mappings\ruido2020-RML.rml
+
