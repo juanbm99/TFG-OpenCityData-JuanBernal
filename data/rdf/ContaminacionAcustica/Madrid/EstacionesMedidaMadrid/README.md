@@ -1,7 +1,7 @@
-# Mapa Descriptivo Estaciones Medida RDF
+# Mapa Descriptivo Estaciones Medida Madrid RDF
 ![Vocabulario Estaciones Medida](https://user-images.githubusercontent.com/43373725/111786367-01c84d00-88be-11eb-8610-f79bd441217c.png)
 
-# FAQ Estaciones Medida RDF
+# FAQ Estaciones Medida Madrid RDF
 
 ### ¿Qué información contiene cada estación de medida?
 Cada estación de medida contiene información acerca de la dirección postal de la misma (schema:address), el identificador de esta (dct:identifier), la fecha de alta de la estación (fechaAlta) y el nombre de esta (schema:name).
