@@ -1,5 +1,6 @@
 # Mapa Descriptivo Estaciones Medida Madrid RDF
-![Vocabulario Estaciones Medida](https://user-images.githubusercontent.com/43373725/111786367-01c84d00-88be-11eb-8610-f79bd441217c.png)
+![Vocabulario Estaciones Medida](https://user-images.githubusercontent.com/43373725/112458122-c06feb80-8d5c-11eb-9a5a-c5504ee802f7.png)
+
 
 # FAQ Estaciones Medida Madrid RDF
 
