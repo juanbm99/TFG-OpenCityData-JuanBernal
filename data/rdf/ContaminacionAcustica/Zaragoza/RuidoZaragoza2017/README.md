@@ -17,6 +17,6 @@ A continuación se expone una pequeña leyenda aclarativa para los valores de la
 - DIA: medida de la observacion realizada por la estación correspondiente durante el periodo diurno.
 - TARDE: medida de la observacion realizada por la estación correspondiente durante el periodo vespertino.
 - NOCHE: medida de la observacion realizada por la estación correspondiente durante el periodo nocturno.
-- 
+
 ### ¿Dónde puedo encontrar información más detallada acerca de las estaciones de medida que realizan las observaciones?
 Todos los datos generados relativos a las estaciones de medida situadas en la ciudad de Zaragoza se encuentran en /data/rdf/ContaminacionAcustica/Zaragoza/EstacionesMedida/EstacionMedida.nt
