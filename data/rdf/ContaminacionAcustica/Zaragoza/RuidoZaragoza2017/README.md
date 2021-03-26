@@ -1,3 +1,7 @@
+# Mapa Descriptivo Ruido Zaragoza 2017 RDF
+![Vocabulario Estaciones Medida](https://user-images.githubusercontent.com/43373725/112668097-5d667d80-8e5e-11eb-8c33-20dbd0c036b1.png)
+
+
 # FAQ Ruido Zaragoza 2017 RDF
 
 ### ¿Qué contiene cada observación?
