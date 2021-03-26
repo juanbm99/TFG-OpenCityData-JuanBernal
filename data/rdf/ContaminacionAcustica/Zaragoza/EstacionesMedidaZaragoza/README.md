@@ -15,4 +15,4 @@ La información acerca de las coordenadas geográficas se encuentra disponible e
 Las coordenadas geográficas se incluirán en los datos generados con RDF una vez vayamos actualizando la ontología de Contaminación Acústica.
 
 ### ¿Dónde puedo encontrar información más detallada acerca de las observaciones que realizan las estaciones de medida?
-Todos los datos generados relativos a las observaciones realizadas por las estaciones de medida situadas en la ciudad de Zaragoza se encuentran en /data/rdf/ContaminacionAcustica/Zaragoza/Ruido
+Todos los datos generados relativos a las observaciones realizadas por las estaciones de medida situadas en la ciudad de Zaragoza se encuentran en /data/rdf/ContaminacionAcustica/Zaragoza/RuidoZaragoza2017
