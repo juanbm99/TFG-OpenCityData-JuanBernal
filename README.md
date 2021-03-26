@@ -25,3 +25,5 @@ Repositorio correspondiente al material generado para la elaboración del Trabaj
 - Estudio del CSV referido a la Contaminacion Acustica de Zaragoza con transformación (OpenRefine) de algunas columnas para mejorar la legibilidad de estos y facilitar el mapeado (RMLmapper y SDM-RDFizer)
 - Creación de los mappings RML para las Estaciones de Medida Zaragoza
 - Generación de RDF de Estaciones de Medida y correción de errores 
+- Creación de los mappings RML para el Ruido de Zaragoza
+- Generación de RDF de RuidoZaragoza y correción de errores 
