@@ -3,8 +3,7 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix dct: <http://purl.org/dc/terms/>.
-@prefix fech: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#>.
-@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix escjr: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#>.
 @prefix schema: <https://schema.org/>.
 @prefix : <http://vocab.ciudadesabiertas.es/def/medio-ambiente/contaminacion-acustica#>.
 @base <http://example.com/ns#>.
@@ -36,7 +35,7 @@
   ];
   
   rr:predicateObjectMap [
-        rr:predicateMap[rr:constant owl:intersectionOf; rr:termType rr:IRI ];
+        rr:predicateMap[rr:constant escjr:tramoVia; rr:termType rr:IRI ];
         rr:objectMap [
           rml:reference "Tramo"; rr:datatype xsd:string
         ]
