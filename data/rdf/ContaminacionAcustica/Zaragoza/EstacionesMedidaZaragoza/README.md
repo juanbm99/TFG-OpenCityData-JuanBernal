@@ -1,5 +1,6 @@
 # Mapa Descriptivo Estaciones Medida Zaragoza RDF
-![Vocabulario Estaciones Medida (3)](https://user-images.githubusercontent.com/43373725/112664787-a288b080-8e5a-11eb-88bf-1a447fe7f503.png)
+![Vocabulario Estaciones MedidaZaragoza](https://user-images.githubusercontent.com/43373725/112723458-e50bc500-8f0e-11eb-91b4-ec740a79c4a5.png)
+
 
 
 
