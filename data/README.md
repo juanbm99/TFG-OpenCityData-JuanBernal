@@ -14,4 +14,4 @@ This directory includes the original datasets in CSV format used to generate the
 This directory includes the transformed CSVs made by Google OpenRefine in order to prepare the data to be generated.
 
 ## RDF Directory
-This directory includes RDF data generated.
+This directory includes RDF data generated in N-Triples format.
