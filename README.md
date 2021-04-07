@@ -27,3 +27,9 @@ Repositorio correspondiente al material generado para la elaboración del Trabaj
 - Generación de RDF de Estaciones de Medida y correción de errores 
 - Creación de los mappings RML para el Ruido de Zaragoza
 - Generación de RDF de RuidoZaragoza y correción de errores 
+- Estudio del CSV referido a la Contaminacion Acustica de Valencia con transformación (OpenRefine) de algunas columnas para mejorar la legibilidad de estos y facilitar el mapeado (RMLmapper y SDM-RDFizer)
+- Creación de los mappings RML para las Estaciones de Medida Valencia
+- Generación de RDF de Estaciones de Medida y correción de errores 
+- Creación de los mappings RML para el Ruido de Valencia
+- Generación de RDF de RuidoValencia y correción de errores 
+
