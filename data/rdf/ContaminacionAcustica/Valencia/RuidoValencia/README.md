@@ -1,3 +1,7 @@
+# Mapa Descriptivo Ruido Valencia RDF
+![Vocabulario Estaciones Medida](https://user-images.githubusercontent.com/43373725/113989153-73a60d80-9850-11eb-899d-afb1d4541bca.png)
+
+
 # FAQ Ruido Valencia RDF
 
 ### ¿Qué contiene cada observación?
