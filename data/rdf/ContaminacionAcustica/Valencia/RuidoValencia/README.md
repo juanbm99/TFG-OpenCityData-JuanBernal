@@ -23,4 +23,4 @@ A continuación se expone una pequeña leyenda aclarativa para los valores de la
 - LAEQ-#: indicador sonoro asociado a un intervalo o periodo del día.
 
 ### ¿Dónde puedo encontrar información más detallada acerca de las estaciones de medida que realizan las observaciones?
-Todos los datos generados relativos a las estaciones de medida situadas en la ciudad de Madrid se encuentran en /data/rdf/ContaminacionAcustica/Valencia/EstacionesMedida/estacionMedidaValencia.nt
+Todos los datos generados relativos a las estaciones de medida situadas en la ciudad de Valencia se encuentran en /data/rdf/ContaminacionAcustica/Valencia/EstacionesMedida/estacionMedidaValencia.nt
