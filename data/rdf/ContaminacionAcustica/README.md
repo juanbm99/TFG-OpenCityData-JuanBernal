@@ -1,5 +1,7 @@
 # Atributos de los datos generados 
 ## Estaciones de Medida
-![TablaObservaciones](https://user-images.githubusercontent.com/43373725/114308265-81bf8c80-9ae3-11eb-994e-74e554dc90a0.PNG)
+![image](https://user-images.githubusercontent.com/43373725/114410617-cdd60400-9bab-11eb-83cb-e9a7c644454f.png)
+
 ## Observaciones
-![TablaEstacionesMedida](https://user-images.githubusercontent.com/43373725/114308256-7bc9ab80-9ae3-11eb-8d76-66684bc9b7d1.PNG)
+![image](https://user-images.githubusercontent.com/43373725/114410488-b434bc80-9bab-11eb-8f56-2a8f2671c380.png)
+
